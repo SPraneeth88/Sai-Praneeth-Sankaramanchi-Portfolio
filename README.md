@@ -1,9 +1,9 @@
-# Sai Praneeth
+# Sai Praneeth Sankaramanchi
 
 Welcome to my GitHub profile! This repository contains various projects and resources that showcase my work and interests in software development.
 
 ## About Me
-- **Name:** Sai Praneeth
+- **Name:** Sai Praneeth Sankaramanchi
 - **Username:** SPraneeth88
 - **Interests:** Programming, Open Source, Machine Learning, Web Development
 
