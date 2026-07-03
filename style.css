@@ -406,6 +406,17 @@ a:hover { color: var(--teal-dark); }
   gap: 40px;
 }
 
+.about-side { display: flex; flex-direction: column; gap: 22px; }
+
+.about-photo {
+  width: 100%;
+  max-width: 280px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 36px -22px rgba(28, 43, 38, 0.4);
+  display: block;
+}
+
 .about-body {
   display: flex;
   flex-direction: column;
@@ -468,6 +479,8 @@ a:hover { color: var(--teal-dark); }
   .work-grid { grid-template-columns: 1fr; }
   .stack-grid { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; gap: 12px; }
+  .about-side { flex-direction: row; align-items: flex-end; gap: 24px; }
+  .about-photo { max-width: 160px; }
 }
 
 @media (max-width: 560px) {

@@ -40,4 +40,4 @@
 
 ## Contact
 
-✉️ iamsaip22@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/sai-praneeth-s-876609322) · Open to full-time roles and contract work (US / Canada / Remote, sponsorship-friendly).
+✉️ YOUR_EMAIL_HERE · 🔗 [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN_HERE) · Open to full-time roles and contract work (US / Canada / Remote, sponsorship-friendly).
