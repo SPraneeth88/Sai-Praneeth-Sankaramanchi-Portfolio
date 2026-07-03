@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Praneeth Sankaramanchi — GenAI &amp; Java Full-Stack Engineer</title>
+  <meta name="description" content="Sai Praneeth Sankaramanchi builds agentic AI systems — LangGraph multi-agent pipelines, RAG, and LLM tooling — on 4+ years of Java full-stack engineering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="wordmark" href="#top">sai<span class="wordmark-accent">//</span>praneeth</a>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">genai + java full-stack engineer</p>
+        <h1>I build agentic AI systems that hold up under engineering scrutiny.</h1>
+        <p class="hero-sub">
+          Multi-agent pipelines in LangGraph, RAG systems, and LLM tooling —
+          built on 4+ years of Java/Spring and Python/FastAPI, and shipped
+          with tests, tracing, and honest documentation.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/SPraneeth88" target="_blank" rel="noopener">View GitHub</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <p class="hero-status"><span class="status-dot" aria-hidden="true"></span>Open to full-time roles &amp; contract work · US / Canada / Remote</p>
+      </div>
+
+      <!-- Signature element: an agent pipeline that "executes" -->
+      <figure class="hero-graph" aria-label="Animated diagram of a multi-agent pipeline: input flows through an orchestrator to three specialist agents, then to a validated output.">
+        <svg viewBox="0 0 460 340" xmlns="http://www.w3.org/2000/svg" role="img">
+          <!-- edges -->
+          <path class="edge" d="M96 170 H160" />
+          <path class="edge edge-p1" d="M96 170 H160" />
+          <path class="edge" d="M232 146 C260 110, 280 96, 312 82" />
+          <path class="edge edge-p2" d="M232 146 C260 110, 280 96, 312 82" />
+          <path class="edge" d="M236 170 H312" />
+          <path class="edge edge-p3" d="M236 170 H312" />
+          <path class="edge" d="M232 194 C260 230, 280 244, 312 258" />
+          <path class="edge edge-p4" d="M232 194 C260 230, 280 244, 312 258" />
+          <path class="edge" d="M388 96 C412 120, 420 134, 428 152" />
+          <path class="edge edge-p5" d="M388 96 C412 120, 420 134, 428 152" />
+          <path class="edge" d="M388 244 C412 220, 420 206, 428 188" />
+          <path class="edge edge-p6" d="M388 244 C412 220, 420 206, 428 188" />
+
+          <!-- nodes -->
+          <g class="node node-1">
+            <rect x="20" y="146" width="76" height="48" rx="10" />
+            <text x="58" y="174">input</text>
+          </g>
+          <g class="node node-2">
+            <rect x="160" y="142" width="76" height="56" rx="10" />
+            <text x="198" y="166">orchestr-</text>
+            <text x="198" y="182">ator</text>
+          </g>
+          <g class="node node-3">
+            <rect x="312" y="58" width="76" height="48" rx="10" />
+            <text x="350" y="86">quality</text>
+          </g>
+          <g class="node node-4">
+            <rect x="312" y="146" width="76" height="48" rx="10" />
+            <text x="350" y="174">security</text>
+          </g>
+          <g class="node node-5">
+            <rect x="312" y="234" width="76" height="48" rx="10" />
+            <text x="350" y="262">explain</text>
+          </g>
+          <g class="node node-6">
+            <rect x="404" y="146" width="48" height="48" rx="24" class="node-out" />
+            <text x="428" y="174" class="check">✓</text>
+          </g>
+        </svg>
+        <figcaption class="graph-caption">langgraph · state machine · human-in-the-loop checkpoints</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <p class="section-sub">Working prototypes, honestly framed — each one demonstrates a pattern I can ship in production.</p>
+      </div>
+
+      <div class="work-grid">
+
+        <article class="card card-flagship">
+          <p class="trace">[ node:sentinel ] · langgraph · fastapi · pytest ✓ 8 passing</p>
+          <h3>Sentinel — LLM-Augmented Security Triage</h3>
+          <p>
+            Security teams drown in static-analysis noise. Sentinel ingests Semgrep
+            SARIF output and runs it through a LangGraph pipeline that classifies,
+            prioritizes, and explains each finding — exposed via a FastAPI service
+            with a full pytest suite.
+          </p>
+          <ul class="tags">
+            <li>LangGraph</li><li>Python</li><li>FastAPI</li><li>Semgrep / SARIF</li><li>pytest</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/SPraneeth88/Sentinel-Prototype" target="_blank" rel="noopener">Repository →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="trace">[ node:code_review ] · 3 specialist agents</p>
+          <h3>AI Code Review Agent</h3>
+          <p>
+            Three specialized LangGraph agents — code quality, security,
+            explainability — orchestrated through a FastAPI pipeline that reviews
+            GitHub pull requests with focused, structured feedback.
+          </p>
+          <ul class="tags">
+            <li>LangGraph</li><li>FastAPI</li><li>GitHub API</li><li>Multi-agent</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/SPraneeth88/AI-Code-Review-Agent" target="_blank" rel="noopener">Repository →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="trace">[ node:rps_2.0 ] · agentic workflow automation</p>
+          <h3>RPS 2.0 — Agentic Reservation Processing</h3>
+          <p>
+            A multi-agent workflow automating reservation intake, validation against
+            business rules, and routing — with explicit orchestration so every
+            decision in the pipeline is traceable.
+          </p>
+          <ul class="tags">
+            <li>LangGraph</li><li>Python</li><li>Workflow automation</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/SPraneeth88/RPS-2.0" target="_blank" rel="noopener">Repository →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="trace">[ node:knowledge_bot ] · live demo</p>
+          <h3>Knowledge Bot</h3>
+          <p>
+            A document-grounded chatbot: paste text or upload a document, then ask
+            questions answered from your content plus web-search sources. Built on
+            Botpress — try it live in your browser.
+          </p>
+          <ul class="tags">
+            <li>Botpress</li><li>RAG pattern</li><li>Web search</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/04/19/14/20260419144401-W5PT2BH7.json" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="trace">[ node:game_ai_arena ] · ai vs ai</p>
+          <h3>GameAI Arena</h3>
+          <p>
+            An ML-powered game platform where AI agents compete — Tic-Tac-Toe,
+            Connect Four, and more. An experiment in agent behavior, evaluation,
+            and emergent strategy outside of chat interfaces.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>Machine learning</li><li>AI agents</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/SPraneeth88/game-ai-arena" target="_blank" rel="noopener">Repository →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="trace">[ node:rift_arena ] · browser game</p>
+          <h3>Rift Arena</h3>
+          <p>
+            A browser-based MOBA in the spirit of League of Legends — three lanes,
+            a jungle system, and the beginnings of WebRTC multiplayer netcode.
+            Pure HTML/JS, no engine.
+          </p>
+          <ul class="tags">
+            <li>JavaScript</li><li>Canvas</li><li>WebRTC</li>
+          </ul>
+          <div class="card-links">
+            <a href="https://github.com/SPraneeth88/Rift-Arena" target="_blank" rel="noopener">Repository →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section section-alt" id="stack">
+      <div class="section-head">
+        <h2>Stack</h2>
+        <p class="section-sub">Two worlds, one engineer: agentic AI systems on top of dependable backend foundations.</p>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-col">
+          <h3 class="stack-title">AI systems</h3>
+          <ul>
+            <li>LangGraph &amp; LangChain</li>
+            <li>RAG pipelines &amp; vector search</li>
+            <li>Multi-agent orchestration</li>
+            <li>Prompt engineering &amp; evaluation</li>
+            <li>OpenAI / Anthropic APIs</li>
+            <li>FastAPI services</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h3 class="stack-title">Backend engineering</h3>
+          <ul>
+            <li>Java · Spring Boot · Spring AOP</li>
+            <li>REST API design &amp; microservices</li>
+            <li>Python</li>
+            <li>SQL &amp; data modeling</li>
+            <li>Hibernate / JPA</li>
+          </ul>
+        </div>
+        <div class="stack-col">
+          <h3 class="stack-title">Practices &amp; tooling</h3>
+          <ul>
+            <li>pytest &amp; JUnit — tests ship with the code</li>
+            <li>Git &amp; GitHub workflows</li>
+            <li>Docker</li>
+            <li>AWS fundamentals</li>
+            <li>Clear docs &amp; honest estimates</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="about-grid">
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
+        <div class="about-body">
+          <p>
+            I'm a software engineer with 4+ years across Java full-stack development
+            and, more recently, GenAI systems. I studied in the US (Arizona State
+            University) and Canada (Conestoga College, PG Diploma), worked in both
+            countries, and I'm currently based in India — open to sponsored
+            relocation and remote-first teams.
+          </p>
+          <p>
+            What I care about: agentic systems are easy to demo and hard to trust.
+            My work focuses on the trust part — explicit orchestration, tests,
+            traceable decisions, and documentation that says what a system actually
+            does. Every project above is framed exactly as what it is: a working
+            prototype demonstrating a production pattern.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow">handoff → human</p>
+        <h2>Let's build something reliable.</h2>
+        <p class="section-sub">Hiring for a GenAI or Java role, or need an agentic prototype built? I reply fast.</p>
+        <div class="hero-actions contact-actions">
+          <a class="btn btn-primary" href="mailto:YOUR_EMAIL_HERE@example.com">Email me</a>
+          <a class="btn btn-ghost" href="https://github.com/SPraneeth88" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/YOUR_LINKEDIN_HERE" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Sai Praneeth Sankaramanchi · Built by hand, hosted free on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
